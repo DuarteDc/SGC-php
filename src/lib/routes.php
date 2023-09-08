@@ -12,7 +12,7 @@ $router->get('/', function() {
 });
 
 $router->get('/.*', function() {
-    echo "Hola 404";
+    echo "404 Not Found";
 });
 
 
