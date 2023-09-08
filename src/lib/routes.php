@@ -11,5 +11,9 @@ $router->get('/', function() {
     echo "Hola";
 });
 
+$router->get('/.*', function() {
+    echo "Hola 404";
+});
+
 
 $router->run();
