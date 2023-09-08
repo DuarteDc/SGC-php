@@ -1,0 +1,18 @@
+{
+    "name": "eduardo/sgc",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DuarteDc",
+            "email": "al221910409@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "bramus/router": "~1.6"
+    }
+}
